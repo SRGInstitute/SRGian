@@ -1,0 +1,170 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: roboto, sans-serif;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  background-image: url('webpage-bg.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+li {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+
+  font-size: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+ul {
+  display: flex;
+
+  gap: 50px;
+}
+.div1 {
+  color: white;
+  font-size: 20px;
+}
+.content {
+  color: white;
+  padding: 20px;
+
+  margin-top: 15%;
+  margin-bottom: 10%;
+}
+h2 {
+  font-size: 40px;
+}
+.hi {
+  color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+.develop {
+  font-size: 20px;
+  font-weight: bold;
+}
+.developer {
+  font-size: 50px;
+}
+.child {
+  height: 420px;
+  width: 400px;
+  color: white;
+  text-align: center;
+
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 2px 2px black;
+  padding: 30px;
+}
+.parent {
+  display: flex;
+
+  margin-bottom: 50px;
+}
+p {
+  color: black;
+  max-width: fit-content;
+}
+.child5 {
+  color: yellow;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.hui {
+  background-color: yellow;
+}
+.footer {
+  background-image: url('back1.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  line-height: 2;
+}
+.divlast {
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.home a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+a {
+  color: white;
+}
+.home2 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.website {
+  color: white;
+  background-color: black;
+}
+.lastdiv {
+  color: black;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+  .div1 {
+    font-size: 15px;
+  }
+  nav a {
+    font-size: 15px;
+  }
+  ul {
+    gap: 15px;
+  }
+  .hi {
+    font-size: 15px;
+  }
+  .developer {
+    font-size: 25px;
+  }
+  .content {
+    line-height: 1.5;
+  }
+  .parent {
+    display: flex;
+    justify-content: center;
+  }
+  .child {
+    height: auto;
+  }
+  .about {
+    font-size: 20px;
+  }
+  img {
+    width: 40px;
+  }
+  .lastdiv {
+    font-size: 20px;
+  }
+}
