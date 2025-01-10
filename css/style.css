@@ -328,7 +328,7 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: rgba(255, 255, 255, 0.5);
-  font-size: 12px;
+  font-size: 15px;
   text-decoration: none !important;
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -519,7 +519,7 @@ a:hover {
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  background: #fff;
+  background: #212529;
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -592,7 +592,7 @@ a:hover {
   padding: 10px 20px;
   display: block;
   position: relative;
-  color: #212529;
+  color: #ffffff;
 }
 .site-mobile-menu .site-nav-wrap a:hover {
   color: #20c997;
@@ -1550,6 +1550,8 @@ a:hover {
   top: 0;
   left: 0;
   margin-bottom: 30px;
+  border-radius: 50%;
+  border: solid white 8px;
 }
 .image-wrap-2:before {
   position: absolute;
@@ -1568,7 +1570,7 @@ a:hover {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray;
   /* IE5+ */
-  -webkit-filter: grayscale(1);
+  /* -webkit-filter: grayscale(1); */
   /* Webkit Nightlies & Chrome Canary */
   -webkit-transition: all 0.1s ease-in-out;
 }
@@ -1654,7 +1656,7 @@ img {
   /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray;
   /* IE5+ */
-  -webkit-filter: grayscale(1);
+  /* -webkit-filter: grayscale(1); */
   /* Webkit Nightlies & Chrome Canary */
   -webkit-transition: all 0.1s ease-in-out;
 }
