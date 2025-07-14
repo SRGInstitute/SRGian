@@ -1,6 +1,4 @@
 # netlify.toml
-[build]
-  publish = "public"   # or "build", "dist", etc.
 
 [[redirects]]
   from   = "/:student"
