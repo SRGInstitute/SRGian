@@ -1,0 +1,50 @@
+body {
+  background-image: url('./piyush-selfie.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-text {
+  color: white;
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+h1 {
+  color: white;
+  font-size: 70px;
+  font-family: Tahoma, sans-serif;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  margin-left: 100px;
+}
+ul {
+  color: white;
+  font-size: 20px;
+  margin-left: 100px;
+}
+li {
+  color: white;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.name {
+  color: #a3c585;
+}
+
+.skills {
+  margin-left: 500px;
+}
