@@ -434,6 +434,11 @@
     $(document).ready(function () {
       $('#lightgallery').lightGallery();
     });
+
+    // Disable the context menu on right-click for the whole document
+    document.addEventListener('contextmenu', function (event) {
+      event.preventDefault();
+    });
   </script>
 
 </body>
